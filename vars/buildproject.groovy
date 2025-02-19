@@ -1,4 +1,4 @@
-def() {
+def call() {
   echo "this will build the artifact"
-  sh  "'mvn spring-boot:run"
+  sh  "'mvn call package"
 }
