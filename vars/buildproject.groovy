@@ -1,4 +1,4 @@
 def() {
-  echo "this will build the project"
-  sh "mvn clean package"
+  echo "this will build the artifact"
+  sh  "'mvn spring-boot:run"
 }
